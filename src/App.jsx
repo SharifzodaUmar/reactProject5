@@ -19,7 +19,7 @@ import surat9 from "./assets/surat9.png";
 import surat10 from "./assets/surat10.png";
 import wave from "./assets/wave.png";
 import wave2 from "./assets/wave2.png";
-import shape from "./assets/shape.png";
+import shape from "./assets/Shape.png";
 
 function App() {
   return (
