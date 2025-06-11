@@ -1,0 +1,319 @@
+*{
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: 105px;
+   background-color: white;
+    display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.headerDiv1{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-left: 70px;
+}
+.headerDiv2{
+     display: flex;
+    align-items: center;
+       gap: 50px;
+         margin-right: 70px;
+}
+.headerDiv2 button{
+    width: 161px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #1D253C33;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: 600;
+}
+.section-1{
+    position: relative;
+    width: 100%;
+    height: 775px;
+
+}
+.sec1Div{
+    top: 200px;
+    left: 100px;
+    position: absolute;
+    width: 450px;
+    height: 383px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sec1Div button{
+    width: 220px;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #F46752;
+    font-size: 16px;
+    font-weight: 600;
+    gap: 10px;
+    border: 0px;
+    border-radius: 10px;
+}
+.surat1{
+    position: absolute;
+    z-index: 1;
+    top: 0pxpx;
+    right: 0px;
+}
+.section-2{
+    background-color: #F9F5F2;
+    width: 100%;
+    height: 645px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.section-2 div{
+    width: 456px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.section-3{
+    width: 100%;
+    height: 822px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.section-3 div{
+        width: 456px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.section-4{
+    width: 100%;
+    height: 723px;
+background-color: #F8F8F8;
+}
+.topDiv{
+    margin: auto;
+   
+    width: 1100px;
+    height: 328px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    text-align: center;
+   
+}
+.BottomDiv{
+    width: 1100px;
+    height: 310px;
+    display: grid;
+    margin: auto;
+    gap: 30px;
+     
+    grid-template-columns: repeat(3,320px);
+    justify-content: center;
+}
+.BottomDiv article{
+    text-align: center;
+background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 20px;
+    box-shadow: 0px 0px 10px #0000000A;
+}
+.surat4{
+    position: absolute;
+    top: 2200px;
+    right: 550px;
+}
+.dog{
+       position: absolute;
+    top: 2920px;
+    right: 0px; 
+}
+.section-5{
+    position: relative;
+    width: 100%;
+    height: 746px;
+    background-color: #363839;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.section-5 article{
+    width: 1100px;
+    height: 521px;
+text-align: center;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+gap: 20px;
+}
+.sec5Div{
+    width: 1110px;
+    height: 195px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.sec5Card{
+    width: 240px;
+    height: 195px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+}
+.wave{
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+}
+.wave2{
+       position: absolute;
+    z-index: 1;
+    top: 220px;
+    right: 40px;
+}
+.btn{
+    width: 210px;
+    height: 61px;
+    border: 0px;
+   
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #F46752;
+}
+.section-7{
+    width: 1100px;
+    height: 616px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-7 article{
+    width: 260px;
+    height: 323px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+ 
+}
+.section-8{
+    position: relative;
+    width: 100%;
+    height: 450px;
+  display: flex;
+  align-items: end;
+
+}
+.sec8Div{
+    width: 100%;
+height: 382px;
+background-color: #E5F3FE;
+}
+.sec8Div article{
+    width: 1100px;
+    height: 382px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    margin: auto;
+}
+.surat9{
+    position: absolute;
+    top: 0px;
+    left: 50p;
+    z-index: 1;
+}
+.surat10{
+    position: absolute;
+    bottom: 0px;
+right: 200px;
+z-index: 1;
+}
+.section-9{
+    width: 1130px;
+    height: 305px;
+    margin: auto;
+    margin-top: 100px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sec9Left{
+    width: 377px;
+    height: 305px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px;
+    justify-content: space-around;
+}
+.sec9Right{
+    width: 545px;
+    height: 211px;
+    display: flex;
+    align-items: center;
+
+}
+.sec9Right div{
+    width: 182px;
+    height: 211px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+background-color: #F8F8F8;
+
+}
+footer button{
+    width: 161px;
+height: 44px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 5px;
+font-size: 16px;
+font-weight: 500;
+border: 1px solid grey;
+}
